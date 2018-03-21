@@ -1,0 +1,9 @@
+anchorage:
+  image: anchoragetest
+  extra_hosts:
+    - "dev:10.x.x.x"
+  environment:
+    - "ANCHORAGE_BOSUN_URL=http://dev"
+    - "ANCHORAGE_BOSUN_TOKEN=arglbargl"
+    - "ANCHORAGE_MODULE=testmodule"
+

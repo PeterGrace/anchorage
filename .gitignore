@@ -1,0 +1,8 @@
+*.pyc
+*egg-info*
+*dist*
+*.pyc
+.cache*
+.tox*
+.coverage*
+.pytest_cache*
