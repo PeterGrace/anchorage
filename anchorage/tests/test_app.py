@@ -4,8 +4,8 @@ import json
 
 
 def test_main():
-    '''This will always fail, please make your tests work!'''
+    '''end-to-end execution test in test mode'''
     runner = CliRunner()
-    result = runner.invoke(main, ['testmodule', 'http://foo',  '--test'])
+    result = runner.invoke(main, ['example', 'http://foo',  '--test'])
     parsed_json = json.loads(result.output)
     assert isinstance(parsed_json, dict)

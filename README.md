@@ -14,9 +14,9 @@ Example instantiation: `anchorage --debug --test --token <bosun-auth-token> <mod
 - --debug enables debug logging inside of anchorage
 
 
-To execute the testmodule example, use `anchorage --debug --test testmodule http://invalidurl`
+To execute the example, use `anchorage --debug --test examples/example http://invalidurl`
 
-Example of testmodule:
+Example module from examples directory:
 ```
 from anchorage.check import Check
 
